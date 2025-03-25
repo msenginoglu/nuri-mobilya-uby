@@ -32,11 +32,14 @@ Eğer bu projeyi farklı bir bilgisayara taşıdıysanız veya ZIP dosyasından 
 
 2. Gerekli paketleri yükleyin:
 
+   ```bash
    npm install
+   ```
 
 3. Tailwind CSS'i derleyin:
-
+   ```bash
    npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css
+   ```
 
 > **Not:** Bu adımları tamamladıktan sonra site düzgün şekilde görüntülenecektir. Eğer bu adımları atlarsanız, stil uygulanmamış bir sayfa görebilirsiniz!
 
@@ -44,13 +47,33 @@ Eğer bu projeyi farklı bir bilgisayara taşıdıysanız veya ZIP dosyasından 
 
 Geliştirme yaparken, CSS değişikliklerinin otomatik olarak derlenmesi için aşağıdaki komutu kullanabilirsiniz:
 
+```bash
 npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch
+```
 
 ### Üretim (Production) İçin
 
 Üretim ortamına deployment yapmadan önce CSS dosyasını optimize etmek için:
 
+```bash
 npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --minify
+```
+
+## Proje Yapısı
+
+- `index.html` - Ana sayfa
+- `src/` - Kaynak dosyaları
+  - `css/` - CSS dosyaları
+    - `input.css` - Tailwind direktiflerini içeren kaynak dosya
+    - `output.css` - Derlenen CSS dosyası
+  - `js/` - JavaScript dosyaları
+    - `main.js` - Ana JavaScript dosyası
+- `.gitignore` - Git tarafından yok sayılacak dosyaları belirten dosya
+- `favicon.svg` - Sayfa favicon'u
+- `package.json` - NPM paket bağımlılıklarını ve proje bilgilerini içeren dosya
+- `package-lock.json` - NPM paket versiyonlarının kilit dosyası
+- `README.md` - Proje dokümantasyonu
+- `site.webmanifest` - Web uygulaması manifest dosyası
 
 ## Eğitim ve Geliştirme Amacı
 
@@ -68,7 +91,7 @@ konularında pratik deneyim sağlamak için geliştirilmiştir.
 
 Bu proje veya Üçüncü Binyıl Akademi'de verilen eğitimler hakkında daha fazla bilgi için:
 
-- **Eğitmen:** Muhammet Şükrü E.
+- **Eğitmen:** Muhammet Şükrü ENGİNOĞLU
 - **Kurum:** Üçüncü Binyıl Akademi
 - **E-posta:** bilgi@ucuncubinyil.com
 - **Web:** www.ucuncubinyil.com
