@@ -52,16 +52,6 @@ npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch
 
 npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --minify
 
-## Proje Yapısı
-
-- `index.html` - Ana sayfa
-- `src/css/` - CSS dosyaları
-  - `input.css` - Tailwind direktiflerini içeren kaynak dosya
-  - `output.css` - Derlenen CSS dosyası
-- `src/js/` - JavaScript dosyaları
-  - `main.js` - Ana JavaScript dosyası
-- `tailwind.config.js` - Tailwind yapılandırma dosyası
-
 ## Eğitim ve Geliştirme Amacı
 
 Bu proje, Üçüncü Binyıl Akademi'de verilen eğitimler kapsamında, öğrencilere:
