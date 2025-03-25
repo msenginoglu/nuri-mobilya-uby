@@ -80,7 +80,7 @@ Bu proje veya Üçüncü Binyıl Akademi'de verilen eğitimler hakkında daha fa
 
 - **Eğitmen:** Muhammet Şükrü E.
 - **Kurum:** Üçüncü Binyıl Akademi
-- **E-posta:** ornek@ucuncubinyil.com
+- **E-posta:** bilgi@ucuncubinyil.com
 - **Web:** www.ucuncubinyil.com
 
 ---
