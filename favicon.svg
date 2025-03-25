@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Arka plan daire -->
+  <circle cx="50" cy="50" r="50" fill="white"/>
+  
+  <!-- Doğru N harfi - amber-700 renginde -->
+  <path d="M25 25 L25 75 L40 75 L40 45 L65 75 L80 75 L80 25 L65 25 L65 55 L40 25 L25 25Z" fill="#B45309"/>
+</svg>
