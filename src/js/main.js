@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     mobileMenuOverlay.classList.remove("hidden");
     mobileMenuOverlay.style.backgroundColor = "rgba(0, 0, 0, 0.3)";
     document.body.style.overflow = "hidden";
+    document.body.style.overflowX = "hidden";
   }
 
   // Function to close mobile menu
@@ -21,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     mobileMenu.classList.add("translate-x-full");
     mobileMenuOverlay.classList.add("hidden");
     document.body.style.overflow = "auto";
+    document.body.style.overflowX = "hidden";
   }
 
   // Toggle mobile menu
